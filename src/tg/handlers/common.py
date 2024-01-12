@@ -11,13 +11,6 @@ from src.tg.utils.tg_calendar import TgCalendarKeyboard, Locale
 logger = logging.getLogger(__name__)
 
 
-class CreateGameStates(Enum):
-    TITLE = auto()
-    DESCRIPTION = auto()
-    LIST_USERNAME = auto()
-    CALENDAR = auto()
-
-
 async def handle_help(update: Update, *args) -> None:
     """Send a message when the command /help is issued."""
     msg = messages.HelpMessage()
