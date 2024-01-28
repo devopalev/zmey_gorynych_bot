@@ -20,7 +20,7 @@ async def main() -> None:
     db.setup()
 
     if config.POSTGRES_DSN:
-        db.setup()
+        # db.setup()  # write /migrations/
         context_types = ContextTypes(context=CustomContext)
     else:
         context_types = ContextTypes(context=MemoryCustomContext)
