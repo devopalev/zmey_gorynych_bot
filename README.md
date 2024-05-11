@@ -1,4 +1,4 @@
-# Каркас для бота на базе python-telegram-bot
+# Да просто мой бот для всяких домашних дел
 
 ## Quick start
 1. Rename the file `.env.example` to `.env` and write your bot token in it to the BOT_TOKEN variable (for example, 

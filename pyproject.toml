@@ -1,17 +1,16 @@
 [tool.poetry]
-name = "skeleton-ptb"
+name = "zmey_gorynych_bot"
 version = "0.1.0"
-description = "skeleton"
+description = ""
 authors = ["devopalev <maksim@devopalev.ru>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.12"
 python-telegram-bot = {extras = ["job-queue"], version = "^20.7"}
 psycopg2-binary = "^2.9.9"
 asyncpg = "^0.29.0"
 yoyo-migrations = "^8.2.0"
-python-dotenv = "^1.0.0"
 
 [build-system]
 requires = ["poetry-core"]
